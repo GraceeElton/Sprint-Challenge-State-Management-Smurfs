@@ -1,8 +1,16 @@
+// set up state and and a simple reducer.
+
+// next work on your componetns to see what action you will need!
+
+//come back here later.
+
 export const initialState = {
   smurf: [],
   isFetching: false,
   error: "",
 };
+
+// set up start for all of your action dispatches.
 
 export const Reducer = (state = initialState, action) => {
   switch (action.type) {

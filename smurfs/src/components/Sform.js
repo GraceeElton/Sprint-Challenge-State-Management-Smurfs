@@ -1,3 +1,5 @@
+// start with a simple form!!
+
 import React, { useState } from "react";
 
 const Form = (props) => {
@@ -9,6 +11,8 @@ const Form = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // add action here for submting form to the list!!
     props.addNewGuy(newForm);
     setNewForm({
       name: "",
@@ -66,3 +70,5 @@ const Form = (props) => {
 };
 
 export default Form;
+
+// move on to actions!!!

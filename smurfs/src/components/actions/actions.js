@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // get item from api!!
-
+// need 3 for each action: start, getting data, error
 export const getItem = () => {
   return (dispatch) => {
     dispatch({ type: "START" });
