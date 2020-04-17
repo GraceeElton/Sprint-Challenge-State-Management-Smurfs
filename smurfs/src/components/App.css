@@ -1,3 +1,14 @@
 .App {
   text-align: center;
+  background-color: white;
+  height: 900px;
+}
+
+.holder {
+  text-align: center;
+  background-color: pink;
+}
+
+.card {
+  background-color: blue;
 }
